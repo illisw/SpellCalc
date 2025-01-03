@@ -1648,7 +1648,7 @@ _addon.spellInfo = {
     [407669] = { -- Avenger's Shield
         spellLevel = 1,
         maxLevel = 0,
-        duration = 10,
+        duration = 5,
         baseCostPct = 26,
         school = 2,
         schoolMask = 2,
@@ -1712,7 +1712,7 @@ _addon.spellInfo = {
     [412019] = { -- Sacred Shield
         spellLevel = 1,
         maxLevel = 0,
-        duration = 30,
+        duration = 60,
         baseCostPct = 12,
         school = 2,
         schoolMask = 2,
@@ -1861,6 +1861,8 @@ _addon.spellClassSet = {
             429139, -- Wrath
             429142, -- Fanaticism
             429152, -- Improved Hammer of Wrath
+            458285, -- Consecration
+            458286, -- Consecration
         },
         [64] = {
             465, -- Devotion Aura(Rank 1)
@@ -1877,6 +1879,7 @@ _addon.spellClassSet = {
             10278, -- Blessing of Protection(Rank 3)
             23415, -- Improved Blessing of Protection
             25282, -- Shield of Rajaxx
+            442948, -- Blessing of Protection
         },
         [256] = {
             1038, -- Blessing of Salvation
@@ -1975,6 +1978,11 @@ _addon.spellClassSet = {
             25912, -- Holy Shock(Rank 1)
             25913, -- Holy Shock(Rank 2)
             25914, -- Holy Shock(Rank 1)
+            444894, -- Holy Shock
+        },
+        [4194304] = {
+            642, -- Divine Shield(Rank 1)
+            1020, -- Divine Shield(Rank 2)
         },
         [8388608] = {
             20271, -- Judgement
@@ -1982,6 +1990,7 @@ _addon.spellClassSet = {
         [16777216] = {
             20217, -- Blessing of Kings
             25898, -- Greater Blessing of Kings
+            1213408, -- Blessing of Kings
         },
         [33554432] = {
             20375, -- Seal of Command(Rank 1)
@@ -2001,6 +2010,7 @@ _addon.spellClassSet = {
             19899, -- Fire Resistance Aura(Rank 2)
             19900, -- Fire Resistance Aura(Rank 3)
             20218, -- Sanctity Aura
+            1214298, -- Libram of Sanctity
         },
         [134217728] = {
             20154, -- Seal of Righteousness(Rank 1)
@@ -2062,6 +2072,7 @@ _addon.spellClassSet = {
             25899, -- Greater Blessing of Sanctuary(Rank 1)
             25916, -- Greater Blessing of Might(Rank 2)
             25918, -- Greater Blessing of Wisdom(Rank 2)
+            442948, -- Blessing of Protection
         },
         [536870912] = {
             20188, -- Judgement of the Crusader(Rank 2)
@@ -2073,6 +2084,7 @@ _addon.spellClassSet = {
             25942, -- Judgement of the Crusader
             25943, -- Judgement of the Crusader
             29203, -- Healing Way
+            456496, -- Judgement of the Crusader
         },
         [1073741824] = {
             19750, -- Flash of Light(Rank 1)
@@ -2092,24 +2104,19 @@ _addon.spellClassSet = {
             10328, -- Holy Light(Rank 7)
             10329, -- Holy Light(Rank 8)
             25292, -- Holy Light(Rank 9)
+            458856, -- Divine Light
         },
     },
     [2] = {
         [2] = {
-            879, -- Exorcism(Rank 1)
             1152, -- Purify
             4987, -- Cleanse
-            5614, -- Exorcism(Rank 2)
-            5615, -- Exorcism(Rank 3)
-            10312, -- Exorcism(Rank 4)
-            10313, -- Exorcism(Rank 5)
-            10314, -- Exorcism(Rank 6)
-            415068, -- Exorcism(Rank 1)
-            415069, -- Exorcism(Rank 2)
-            415070, -- Exorcism(Rank 3)
-            415071, -- Exorcism(Rank 4)
-            415072, -- Exorcism(Rank 5)
-            415073, -- Exorcism(Rank 6)
+        },
+        [64] = {
+            20925, -- Holy Shield(Rank 1)
+            20927, -- Holy Shield(Rank 2)
+            20928, -- Holy Shield(Rank 3)
+            456544, -- Holy Shield
         },
         [128] = {
             24239, -- Hammer of Wrath(Rank 3)
@@ -2117,10 +2124,19 @@ _addon.spellClassSet = {
             24275, -- Hammer of Wrath(Rank 1)
             429151, -- Hammer of Wrath
         },
+        [512] = {
+            20424, -- Seal of Command
+            20467, -- Judgement of Command(Rank 1)
+            20963, -- Judgement of Command(Rank 2)
+            20964, -- Judgement of Command(Rank 3)
+            20965, -- Judgement of Command(Rank 4)
+            20966, -- Judgement of Command(Rank 5)
+        },
         [1024] = {
             407799, -- Seal of Martyrdom
         },
         [8192] = {
+            407788, -- Avenging Wrath
             409324, -- Ancestral Guidance
         },
         [16384] = {
@@ -2138,9 +2154,15 @@ _addon.spellClassSet = {
             407778, -- Divine Storm
             407782, -- Divine Storm
         },
+        [262144] = {
+            407632, -- Hammer of the Righteous
+        },
         [524288] = {
             53601, -- Sacred Shield(Rank 1)
             58597, -- Sacred Shield(Rank 1)
+        },
+        [1048576] = {
+            440658, -- Shield of Righteousness
         },
         [2097152] = {
             2812, -- Holy Wrath(Rank 1)
@@ -2151,6 +2173,7 @@ _addon.spellClassSet = {
         [16777216] = {
             407613, -- Beacon of Light
             407615, -- Beacon of Light
+            460900, -- Beacon of Light
         },
         [2147483648] = {
             415058, -- Guarded by the Light
@@ -2168,6 +2191,21 @@ _addon.spellClassSet = {
         },
         [16] = {
             407803, -- Judgement of Martyrdom
+        },
+        [256] = {
+            498, -- Divine Protection(Rank 1)
+            5573, -- Divine Protection(Rank 2)
+        },
+        [1024] = {
+            635, -- Holy Light(Rank 1)
+            639, -- Holy Light(Rank 2)
+            647, -- Holy Light(Rank 3)
+            1026, -- Holy Light(Rank 4)
+            1042, -- Holy Light(Rank 5)
+            3472, -- Holy Light(Rank 6)
+            10328, -- Holy Light(Rank 7)
+            10329, -- Holy Light(Rank 8)
+            25292, -- Holy Light(Rank 9)
         },
         [8192] = {
             879, -- Exorcism(Rank 1)
@@ -2207,6 +2245,9 @@ _addon.spellClassSet = {
             25290, -- Blessing of Wisdom(Rank 6)
             25291, -- Blessing of Might(Rank 7)
         },
+        [268435456] = {
+            458286, -- Consecration
+        },
         [536870912] = {
             25902, -- Holy Shock(Rank 3)
             25911, -- Holy Shock(Rank 2)
@@ -2220,6 +2261,16 @@ _addon.spellClassSet = {
             20913, -- Blessing of Sanctuary(Rank 3)
             20914, -- Blessing of Sanctuary(Rank 4)
             25899, -- Greater Blessing of Sanctuary(Rank 1)
+        },
+        [2048] = {
+            407669, -- Avenger's Shield
+        },
+        [4194304] = {
+            20049, -- Vengeance(Rank 1)
+            20056, -- Vengeance(Rank 2)
+            20057, -- Vengeance(Rank 3)
+            20058, -- Vengeance(Rank 4)
+            20059, -- Vengeance(Rank 5)
         },
         [2147483648] = {
             407627, -- Righteous Fury

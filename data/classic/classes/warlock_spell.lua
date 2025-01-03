@@ -37,6 +37,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -181,6 +182,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -308,6 +310,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -398,6 +401,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -838,6 +842,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -866,6 +871,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -894,6 +900,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1704,6 +1711,7 @@ _addon.spellInfo = {
         school = 3,
         schoolMask = 4,
         defType = 1,
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1766,7 +1774,7 @@ _addon.spellInfo = {
     [403501] = { -- Haunt
         spellLevel = 1,
         maxLevel = 0,
-        duration = 12,
+        duration = 15,
         baseCostPct = 12,
         school = 6,
         schoolMask = 32,
@@ -1942,17 +1950,27 @@ _addon.spellInfo = {
     [426320] = { -- Shadowflame
         spellLevel = 1,
         maxLevel = 0,
+        duration = 15,
         baseCostPct = 27,
         school = 6,
-        schoolMask = 32,
+        schoolMask = 36,
         defType = 1,
-        useScalingFormula = { id = 807, label = "power" },
+        useScalingFormula = { id = 859, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
+                valueBase = 173,
+                valueRange = 0,
+                coef = 0.20000000298,
+                coefAP = 0,
+            },
+            [2] = {
+                effectType = 6,
+                auraType = 3,
+                tickPeriod = 3,
                 valueBase = 64,
                 valueRange = 0,
-                coef = 0.07150000334,
+                coef = 0.12999999523,
                 coefAP = 0,
             },
         }
@@ -1960,7 +1978,7 @@ _addon.spellInfo = {
     [427717] = { -- Unstable Affliction
         spellLevel = 1,
         maxLevel = 0,
-        duration = 15,
+        duration = 18,
         baseCostPct = 15,
         school = 6,
         schoolMask = 32,
@@ -1971,7 +1989,7 @@ _addon.spellInfo = {
                 effectType = 6,
                 auraType = 3,
                 tickPeriod = 3,
-                valueBase = 60,
+                valueBase = 242,
                 valueRange = 0,
                 coef = 0.20000000298,
                 coefAP = 0,
@@ -2005,8 +2023,7 @@ _addon.spellInfo = {
         effects = {
             [1] = {
                 effectType = 6,
-                auraType = 23,
-                tickPeriod = 2,
+                auraType = 42,
                 valueBase = 20,
                 valueRange = 0,
                 triggeredSpell = 427725,
@@ -2044,6 +2061,7 @@ _addon.spellClassSet = {
             21068, -- Corruption
             25311, -- Corruption(Rank 7)
             426241, -- Invocation
+            1213450, -- Corruption
         },
         [4] = {
             265, -- Area Death (TEST)
@@ -2086,6 +2104,10 @@ _addon.spellClassSet = {
             6219, -- Rain of Fire(Rank 2)
             11677, -- Rain of Fire(Rank 3)
             11678, -- Rain of Fire(Rank 4)
+            460692, -- Rain of Fire(Rank 1)
+            460698, -- Rain of Fire(Rank 2)
+            460699, -- Rain of Fire(Rank 3)
+            460700, -- Rain of Fire(Rank 4)
         },
         [64] = {
             1949, -- Hellfire(Rank 1)
@@ -2355,6 +2377,7 @@ _addon.spellClassSet = {
             403828, -- Menace
             442226, -- Menace
             442233, -- Menace
+            449432, -- Curse of Doom
         },
     },
     [2] = {
@@ -2364,15 +2387,29 @@ _addon.spellClassSet = {
             18880, -- Siphon Life(Rank 3)
             18881, -- Siphon Life(Rank 4)
             426247, -- Invocation
+            454427, -- Invocation
         },
         [2] = {
             603, -- Curse of Doom
+            449432, -- Curse of Doom
         },
         [64] = {
             412758, -- Incinerate
         },
+        [128] = {
+            6353, -- Soul Fire(Rank 1)
+            17924, -- Soul Fire(Rank 2)
+        },
         [256] = {
             427717, -- Unstable Affliction
+            454197, -- Invocation
+        },
+        [512] = {
+            1490, -- Curse of the Elements(Rank 1)
+            11721, -- Curse of the Elements(Rank 2)
+            11722, -- Curse of the Elements(Rank 3)
+            17862, -- Curse of Shadow(Rank 1)
+            17937, -- Curse of Shadow(Rank 2)
         },
         [1024] = {
             5782, -- Fear(Rank 1)
@@ -2387,6 +2424,7 @@ _addon.spellClassSet = {
         },
         [65536] = {
             426320, -- Shadowflame
+            426331, -- Invocation
         },
         [131072] = {
             403629, -- Chaos Bolt
@@ -2407,11 +2445,25 @@ _addon.spellClassSet = {
             18931, -- Conflagrate(Rank 3)
             18932, -- Conflagrate(Rank 4)
         },
+        [16777216] = {
+            427744, -- Cleave
+        },
+        [134217728] = {
+            710, -- Banish(Rank 1)
+            18647, -- Banish(Rank 2)
+        },
+        [536870912] = {
+            403619, -- Fel Armor
+        },
     },
     [3] = {
         [2] = {
             426325, -- Shadowflame
             426331, -- Invocation
+        },
+        [512] = {
+            1714, -- Curse of Tongues(Rank 1)
+            11719, -- Curse of Tongues(Rank 2)
         },
         [8192] = {
             403789, -- Metamorphosis(Shapeshift)
@@ -2440,16 +2492,42 @@ _addon.spellClassSet = {
         [1048576] = {
             426301, -- Grimoire of Synergy
         },
+        [2097152] = {
+            426195, -- Vengeance
+        },
         [8388608] = {
             426245, -- Invocation
+        },
+        [16777216] = {
+            427725, -- Immolation Aura
+            427726, -- Immolation Aura
+            461230, -- The Molten Core
+            469357, -- Immolation Aura
         },
         [33554432] = {
             698, -- Ritual of Summoning
             437169, -- Portal of Summoning
             437311, -- Portal of Summoning
         },
+        [67108864] = {
+            18094, -- Nightfall(Rank 1)
+            18095, -- Nightfall(Rank 2)
+        },
+        [2147483648] = {
+            17794, -- Shadow Vulnerability
+            17797, -- Shadow Vulnerability
+            17798, -- Shadow Vulnerability
+            17799, -- Shadow Vulnerability
+            17800, -- Shadow Vulnerability
+        },
     },
     [4] = {
+        [64] = {
+            460906, -- Demonic Frenzy
+        },
+        [2147483648] = {
+            412788, -- Demon Charge
+        },
     },
 };
 

@@ -31,7 +31,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_HIT_CHANCE,
-                affectSpell = {539230208, 0, 268697664, 16384},
+                affectSpell = {539230208, 32768, 268697664, 16384},
                 perPoint = 2,
             },
         }
@@ -77,7 +77,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_DAMAGE_HEALING,
-                affectSpell = {551686903, 69632, 268697696, 540672},
+                affectSpell = {551686903, 102400, 268714080, 540672},
                 perPoint = 1,
             },
             {
@@ -87,7 +87,7 @@ _addon.talentDataRaw = {
             },
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_CRIT_CHANCE,
-                affectSpell = {551688951, 69632, 268701792, 540674},
+                affectSpell = {551688951, 102400, 268718176, 537411586},
                 perPoint = 1,
             },
         }
@@ -102,7 +102,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_EXTRA_ON_CRIT,
-                affectSpell = {43451023732, 200704, 525064, 536887296},
+                affectSpell = {45607817590, 200712, 525064, 536887296},
                 perPoint = 8,
             },
         }
@@ -114,7 +114,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_CRIT_CHANCE,
-                affectSpell = {18, 0, 0, 0},
+                affectSpell = {18, 65536, 0, 0},
                 perPoint = 2,
             },
         }
@@ -181,7 +181,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_HIT_CHANCE,
-                affectSpell = {12714743, 1249280, 262240, 540672},
+                affectSpell = {12714743, 1249280, 278624, 540672},
                 perPoint = 2,
             },
         }
@@ -193,7 +193,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_CRIT_MULT,
-                affectSpell = {131808, 4096, 96, 524288},
+                affectSpell = {131808, 4096, 16480, 540672},
                 perPoint = 20,
             },
         }
@@ -205,7 +205,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_DAMAGE_HEALING,
-                affectSpell = {131808, 4096, 96, 524288},
+                affectSpell = {131808, 4096, 96, 540672},
                 perPoint = 2,
             },
             {

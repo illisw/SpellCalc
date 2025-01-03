@@ -18,6 +18,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -40,6 +41,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -60,6 +62,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -80,6 +83,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -184,6 +188,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -223,6 +228,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -243,6 +249,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -522,6 +529,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -542,6 +550,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -650,6 +659,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -754,6 +764,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -774,6 +785,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -794,6 +806,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -984,6 +997,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -1190,6 +1204,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1360,6 +1375,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1380,6 +1396,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1400,6 +1417,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1439,6 +1457,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1459,6 +1478,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1479,6 +1499,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -1499,6 +1520,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -1521,6 +1543,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -1543,6 +1566,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isChannel = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 27,
@@ -1886,6 +1910,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -2363,6 +2388,7 @@ _addon.spellInfo = {
         schoolMask = 16,
         isBinary = true,
         defType = 1,
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 2,
@@ -2512,7 +2538,7 @@ _addon.spellInfo = {
                 effectType = 2,
                 valueBase = 55,
                 valueRange = 10,
-                coef = 0.14300000668,
+                coef = 0,
                 coefAP = 0,
             },
         }
@@ -2521,19 +2547,20 @@ _addon.spellInfo = {
         spellLevel = 1,
         maxLevel = 0,
         duration = 3,
-        baseCostPct = 43,
+        baseCostPct = 28,
         school = 7,
         schoolMask = 64,
         isChannel = true,
         defType = 1,
-        useScalingFormula = { id = 809, label = "healpower" },
+        useScalingFormula = { id = 809, label = "power" },
         effects = {
             [1] = {
                 effectType = 6,
-                auraType = 8,
+                auraType = 227,
                 tickPeriod = 1,
                 valueBase = 42,
                 valueRange = 0,
+                triggeredSpell = 456485,
                 coef = 0.45699998736,
                 coefAP = 0,
             },
@@ -2552,8 +2579,8 @@ _addon.spellInfo = {
         effects = {
             [1] = {
                 effectType = 2,
-                valueBase = 387,
-                valueRange = 64,
+                valueBase = 325,
+                valueRange = 54,
                 coef = 1,
                 coefAP = 0,
             },
@@ -2572,7 +2599,7 @@ _addon.spellInfo = {
         spellLevel = 1,
         maxLevel = 0,
         duration = 3,
-        baseCostPct = 69,
+        baseCostPct = 45,
         school = 7,
         schoolMask = 64,
         isChannel = true,
@@ -2679,7 +2706,7 @@ _addon.spellInfo = {
         duration = 30,
         baseCostPct = 20,
         school = 7,
-        schoolMask = 68,
+        schoolMask = 84,
         defType = 1,
         useScalingFormula = { id = 809, label = "power" },
         effects = {
@@ -2688,6 +2715,23 @@ _addon.spellInfo = {
                 valueBase = 280,
                 valueRange = 140,
                 coef = 0.85699999332,
+                coefAP = 0,
+            },
+        }
+    },
+    [456485] = { -- Regeneration
+        spellLevel = 1,
+        maxLevel = 0,
+        school = 7,
+        schoolMask = 64,
+        defType = 1,
+        useScalingFormula = { id = 809, label = "healpower" },
+        effects = {
+            [1] = {
+                effectType = 10,
+                valueBase = 42,
+                valueRange = 0,
+                coef = 0.45699998736,
                 coefAP = 0,
             },
         }
@@ -2744,6 +2788,7 @@ _addon.spellClassSet = {
             400621, -- Fire Blast(Rank 5)
             400622, -- Fire Blast(Rank 6)
             400623, -- Fire Blast(Rank 7)
+            461896, -- Fire Blast
         },
         [4] = {
             2120, -- Flamestrike(Rank 1)
@@ -2871,6 +2916,10 @@ _addon.spellClassSet = {
             22272, -- Arcane Missiles
             22273, -- Arcane Missiles
             25345, -- Arcane Missiles(Rank 8)
+            469055, -- Fire Volley(Rank 1)
+            469056, -- Frost Volley(Rank 1)
+            469057, -- Earth Volley(Rank 1)
+            469058, -- Lightning Volley(Rank 1)
         },
         [4096] = {
             1449, -- Arcane Explosion(Rank 1)
@@ -2969,6 +3018,9 @@ _addon.spellClassSet = {
             400640, -- Ice Lance
             425225, -- Fire Damage Check
             434443, -- Pyroblast
+            460858, -- Pyroblast
+            460860, -- Pyroblast
+            469161, -- Blast Wave
         },
         [262144] = {
             118, -- Polymorph(Rank 1)
@@ -3005,6 +3057,11 @@ _addon.spellClassSet = {
             28272, -- Polymorph(Pig)
             29124, -- Polymorph
             428741, -- Molten Armor
+            448572, -- Sleep(Rank 3)
+            469055, -- Fire Volley(Rank 1)
+            469056, -- Frost Volley(Rank 1)
+            469057, -- Earth Volley(Rank 1)
+            469058, -- Lightning Volley(Rank 1)
         },
         [524288] = {
             10, -- Blizzard(Rank 1)
@@ -3078,6 +3135,7 @@ _addon.spellClassSet = {
             412209, -- Frost Ward(Rank 4)
             412210, -- Frost Ward(Rank 5)
             412532, -- Spellfrost Bolt
+            1213278, -- Ice Barrier(Rank 4)
         },
         [1048576] = {
             116, -- Frostbolt(Rank 1)
@@ -3116,6 +3174,8 @@ _addon.spellClassSet = {
             350025, -- Frostbolt
             401502, -- Frostfire Bolt
             412532, -- Spellfrost Bolt
+            440809, -- Frozen Orb
+            460651, -- Frozen Orb
         },
         [2097152] = {
             7268, -- Arcane Missile(Rank 1)
@@ -3141,6 +3201,8 @@ _addon.spellClassSet = {
             18809, -- Pyroblast(Rank 8)
             20228, -- Pyroblast
             434443, -- Pyroblast
+            460858, -- Pyroblast
+            460860, -- Pyroblast
         },
         [8388608] = {
             11113, -- Blast Wave(Rank 1)
@@ -3171,6 +3233,8 @@ _addon.spellClassSet = {
         },
         [67108864] = {
             12051, -- Evocation
+            468466, -- Unmaking the Simulacrum
+            468710, -- [DNT] Demitrian Summon
         },
         [134217728] = {
             12654, -- Ignite
@@ -3274,6 +3338,10 @@ _addon.spellClassSet = {
             435849, -- Conjure Comprehension Charms
             436516, -- Chronostatic Preservation
             443369, -- Chronostatic Preservation
+            443635, -- Conjure Ocean Water(Rank 4)
+            460858, -- Pyroblast
+            460860, -- Pyroblast
+            468766, -- Conjure Water(Rank 8)
         },
         [2147483648] = {
             66, -- Lesser Invisibility
@@ -3351,16 +3419,32 @@ _addon.spellClassSet = {
             29124, -- Polymorph
             412113, -- Remove Greater Curse
             425124, -- Arcane Surge
+            435112, -- Vengeance
             435849, -- Conjure Comprehension Charms
+            443635, -- Conjure Ocean Water(Rank 4)
+            449010, -- Dispel Shadows (DNT)
+            468766, -- Conjure Water(Rank 8)
         },
     },
     [2] = {
+        [8] = {
+            428743, -- Molten Armor
+        },
+        [256] = {
+            759, -- Conjure Mana Agate
+            3552, -- Conjure Mana Jade
+            10053, -- Conjure Mana Citrine
+            10054, -- Conjure Mana Ruby
+        },
         [4096] = {
             401502, -- Frostfire Bolt
         },
         [16384] = {
             425121, -- Icy Veins
             429125, -- Icy Veins
+        },
+        [32768] = {
+            400610, -- Arcane Barrage
         },
         [65536] = {
             400614, -- Living Bomb
@@ -3373,6 +3457,10 @@ _addon.spellClassSet = {
         },
     },
     [3] = {
+        [4] = {
+            400573, -- Arcane Blast
+            400586, -- Arcane Blast
+        },
         [8] = {
             401502, -- Frostfire Bolt
             412532, -- Spellfrost Bolt
@@ -3392,6 +3480,10 @@ _addon.spellClassSet = {
         [4096] = {
             412510, -- Mass Regeneration
         },
+        [16384] = {
+            440809, -- Frozen Orb
+            460651, -- Frozen Orb
+        },
         [262144] = {
             401556, -- Living Flame
             401558, -- Living Flame
@@ -3399,16 +3491,29 @@ _addon.spellClassSet = {
         [16777216] = {
             428885, -- Temporal Anomaly
         },
+        [67108864] = {
+            400735, -- Temporal Beacon
+        },
+        [134217728] = {
+            1218345, -- Glaciate
+        },
         [268435456] = {
             425124, -- Arcane Surge
+        },
+        [536870912] = {
+            440802, -- Frozen Orb
         },
     },
     [4] = {
         [2] = {
             401417, -- Regeneration
+            456485, -- Regeneration
         },
         [16384] = {
             428878, -- Balefire Bolt
+        },
+        [32768] = {
+            12472, -- Cold Snap
         },
         [33554432] = {
             1459, -- Arcane Intellect(Rank 1)

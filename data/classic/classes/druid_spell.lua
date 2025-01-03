@@ -2781,7 +2781,7 @@ _addon.spellInfo = {
         spellLevel = 1,
         maxLevel = 0,
         duration = 7,
-        baseCostPct = 56,
+        baseCostPct = 45,
         school = 4,
         schoolMask = 8,
         defType = 1,
@@ -2791,9 +2791,9 @@ _addon.spellInfo = {
                 effectType = 6,
                 auraType = 8,
                 tickPeriod = 1,
-                valueBase = 34,
+                valueBase = 17,
                 valueRange = 0,
-                coef = 0.06100000069,
+                coef = 0.02999999933,
                 coefAP = 0,
             },
         }
@@ -3176,7 +3176,6 @@ _addon.spellInfo = {
         spellLevel = 1,
         maxLevel = 1,
         duration = 15,
-        baseCostPct = 1,
         school = 7,
         schoolMask = 64,
         defType = 1,
@@ -3485,6 +3484,8 @@ _addon.spellClassSet = {
             21668, -- Starfire
             25298, -- Starfire(Rank 7)
             429820, -- Starfall
+            449431, -- Starfall
+            463285, -- Starfire
         },
         [8] = {
             99, -- Demoralizing Roar(Rank 1)
@@ -3561,6 +3562,7 @@ _addon.spellClassSet = {
             21791, -- Tranquility
             21793, -- Twisted Tranquility
             25817, -- Tranquility
+            447548, -- Twisted Tranquility
         },
         [256] = {
             467, -- Thorns(Rank 1)
@@ -3789,8 +3791,23 @@ _addon.spellClassSet = {
         [1024] = {
             407993, -- Mangle(Cat)
         },
+        [2048] = {
+            24932, -- Leader of the Pack
+        },
         [4096] = {
             29166, -- Innervate
+            456195, -- Innervate
+        },
+        [8192] = {
+            24858, -- Moonkin Form(Shapeshift)
+        },
+        [65536] = {
+            439733, -- Tree of Life(Shapeshift)
+        },
+        [262144] = {
+            22812, -- Barkskin
+            428713, -- Barkskin
+            460673, -- Demonskin
         },
         [1048576] = {
             769, -- Swipe(Rank 3)
@@ -3799,14 +3816,27 @@ _addon.spellClassSet = {
             9754, -- Swipe(Rank 4)
             9908, -- Swipe(Rank 5)
         },
+        [8388608] = {
+            439748, -- Starfall
+            439753, -- Starfall
+            439756, -- Starfall
+        },
         [33554432] = {
             408247, -- Nourish
         },
         [67108864] = {
             408120, -- Wild Growth
         },
+        [134217728] = {
+            439745, -- Tree of Life
+        },
         [268435456] = {
             407988, -- Savage Roar
+        },
+        [536870912] = {
+            8998, -- Cower(Rank 1)
+            9000, -- Cower(Rank 2)
+            9892, -- Cower(Rank 3)
         },
         [1073741824] = {
             22842, -- Frenzied Regeneration(Rank 1)
@@ -3819,14 +3849,23 @@ _addon.spellClassSet = {
         [1] = {
             5209, -- Challenging Roar
         },
+        [4] = {
+            24907, -- Moonkin Aura
+        },
         [16] = {
             16979, -- Feral Charge
         },
         [64] = {
             417141, -- Berserk
         },
+        [256] = {
+            439755, -- Starfall
+        },
         [512] = {
             437138, -- Revive
+        },
+        [1024] = {
+            411128, -- Swipe(Cat)
         },
         [2048] = {
             5217, -- Tiger's Fury(Rank 1)
@@ -3838,6 +3877,14 @@ _addon.spellClassSet = {
         [65536] = {
             407989, -- Savage Roar
         },
+        [2097152] = {
+            1079, -- Rip(Rank 1)
+            9492, -- Rip(Rank 2)
+            9493, -- Rip(Rank 3)
+            9752, -- Rip(Rank 4)
+            9894, -- Rip(Rank 5)
+            9896, -- Rip(Rank 6)
+        },
         [8388608] = {
             17002, -- Feline Swiftness
             24866, -- Feline Swiftness
@@ -3847,6 +3894,13 @@ _addon.spellClassSet = {
         },
         [33554432] = {
             417157, -- Starsurge
+        },
+        [134217728] = {
+            16902, -- Natural Weapons(Rank 1)
+            16903, -- Natural Weapons(Rank 2)
+            16904, -- Natural Weapons(Rank 3)
+            16905, -- Natural Weapons(Rank 4)
+            16906, -- Natural Weapons(Rank 5)
         },
         [536870912] = {
             1126, -- Mark of the Wild(Rank 1)
@@ -3859,8 +3913,13 @@ _addon.spellClassSet = {
             364163, -- Mark of the Wild(Rank 6)
         },
         [2147483648] = {
-            417440, -- Thrash (Bear)
-            417441, -- Thrash (Bear)
+            6807, -- Maul(Rank 1)
+            6808, -- Maul(Rank 2)
+            6809, -- Maul(Rank 3)
+            8972, -- Maul(Rank 4)
+            9745, -- Maul(Rank 5)
+            9880, -- Maul(Rank 6)
+            9881, -- Maul(Rank 7)
         },
     },
     [4] = {
@@ -3875,18 +3934,50 @@ _addon.spellClassSet = {
         [1024] = {
             414683, -- Living Seed
         },
+        [2048] = {
+            16857, -- Faerie Fire (Feral)(Rank 1)
+            17390, -- Faerie Fire (Feral)(Rank 2)
+            17391, -- Faerie Fire (Feral)(Rank 3)
+            17392, -- Faerie Fire (Feral)(Rank 4)
+        },
+        [4096] = {
+            22568, -- Ferocious Bite(Rank 1)
+            22827, -- Ferocious Bite(Rank 2)
+            22828, -- Ferocious Bite(Rank 3)
+            22829, -- Ferocious Bite(Rank 4)
+            31018, -- Ferocious Bite(Rank 5)
+        },
+        [131072] = {
+            16886, -- Nature's Grace
+        },
         [262144] = {
             16864, -- Omen of Clarity
         },
+        [8388608] = {
+            439748, -- Starfall
+        },
         [134217728] = {
             410176, -- Skull Bash
+        },
+        [536870912] = {
+            16896, -- Moonfury(Rank 1)
+            16897, -- Moonfury(Rank 2)
+            16899, -- Moonfury(Rank 3)
+            16900, -- Moonfury(Rank 4)
+            16901, -- Moonfury(Rank 5)
         },
         [1073741824] = {
             1822, -- Rake(Rank 1)
             1823, -- Rake(Rank 2)
             1824, -- Rake(Rank 3)
             9904, -- Rake(Rank 4)
-            417448, -- Thrash (Cat)
+        },
+        [2147483648] = {
+            16821, -- Improved Moonfire(Rank 1)
+            16822, -- Improved Moonfire(Rank 2)
+            16823, -- Improved Moonfire(Rank 3)
+            16824, -- Improved Moonfire(Rank 4)
+            16825, -- Improved Moonfire(Rank 5)
         },
     },
 };

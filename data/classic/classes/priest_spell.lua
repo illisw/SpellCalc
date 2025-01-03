@@ -3268,7 +3268,6 @@ _addon.spellClassSet = {
             7128, -- Inner Fire(Rank 2)
             10951, -- Inner Fire(Rank 5)
             10952, -- Inner Fire(Rank 6)
-            16329, -- Juju Might
         },
         [4] = {
             15286, -- Vampiric Embrace
@@ -3278,6 +3277,7 @@ _addon.spellClassSet = {
             28418, -- General's Warcry
             28419, -- General's Warcry
             28420, -- General's Warcry
+            461966, -- Vampiric Embrace
         },
         [8] = {
             1243, -- Power Word: Fortitude(Rank 1)
@@ -3291,6 +3291,7 @@ _addon.spellClassSet = {
             21564, -- Prayer of Fortitude(Rank 2)
             23947, -- Power Word: Fortitude(Rank 5)
             23948, -- Power Word: Fortitude(Rank 6)
+            450086, -- Prayer of Fortitude(Rank 2)
         },
         [16] = {
             8129, -- Mana Burn(Rank 1)
@@ -3504,6 +3505,9 @@ _addon.spellClassSet = {
             28883, -- Holy Wrath
             29407, -- Mind Flay
             412526, -- Mind Flay
+            474204, -- Mind Flay
+            474268, -- Mind Flay
+            1215740, -- Mind Flay
         },
         [16777216] = {
             13908, -- Desperate Prayer(Rank 1)
@@ -3550,6 +3554,11 @@ _addon.spellClassSet = {
             19284, -- Hex of Weakness(Rank 5)
             19285, -- Hex of Weakness(Rank 6)
             25816, -- Hex of Weakness(Rank 6)
+            402791, -- Curse of Shadow
+            402792, -- Curse of the Elements
+            402794, -- Curse of Tongues
+            450108, -- Mind Vision(Rank 2)
+            461966, -- Vampiric Embrace
         },
         [134217728] = {
             15007, -- Resurrection Sickness
@@ -3589,6 +3598,7 @@ _addon.spellClassSet = {
             27871, -- Lightwell(Rank 3)
             34433, -- Shadowfiend
             401977, -- Shadowfiend
+            402789, -- Eye of the Void
             402799, -- Homunculi
             402801, -- Homunculi
             402802, -- Homunculi
@@ -3672,6 +3682,9 @@ _addon.spellClassSet = {
             30238, -- Lordaeron's Blessing
             402004, -- Pain Suppression
             421248, -- Shadowguard(Rank 1)
+            447549, -- Feedback(Rank 5)
+            461329, -- Levitate
+            461966, -- Vampiric Embrace
         },
     },
     [2] = {
@@ -3685,6 +3698,9 @@ _addon.spellClassSet = {
         [2] = {
             401955, -- Shadow Word: Death
         },
+        [4] = {
+            401937, -- Binding Heal
+        },
         [32] = {
             401859, -- Prayer of Mending
             401880, -- Prayer of Mending
@@ -3693,6 +3709,9 @@ _addon.spellClassSet = {
             34433, -- Shadowfiend
             401977, -- Shadowfiend
         },
+        [1024] = {
+            402668, -- Vampiric Touch
+        },
         [2048] = {
             15473, -- Shadowform
         },
@@ -3700,6 +3719,9 @@ _addon.spellClassSet = {
             402004, -- Pain Suppression
             402362, -- White
             402368, -- Black
+            402791, -- Curse of Shadow
+            402792, -- Curse of the Elements
+            402794, -- Curse of Tongues
             431624, -- Divine Aegis
         },
         [8192] = {
@@ -3727,6 +3749,14 @@ _addon.spellClassSet = {
         [16777216] = {
             431624, -- Divine Aegis
         },
+        [33554432] = {
+            6346, -- Fear Ward
+        },
+        [67108864] = {
+            9484, -- Shackle Undead(Rank 1)
+            9485, -- Shackle Undead(Rank 2)
+            10955, -- Shackle Undead(Rank 3)
+        },
         [268435456] = {
             402004, -- Pain Suppression
         },
@@ -3752,6 +3782,10 @@ _addon.spellClassSet = {
         [16777216] = {
             425207, -- Power Word: Barrier
         },
+        [33554432] = {
+            528, -- Cure Disease
+            552, -- Abolish Disease
+        },
         [67108864] = {
             402799, -- Homunculi
             402801, -- Homunculi
@@ -3759,9 +3793,26 @@ _addon.spellClassSet = {
         },
     },
     [4] = {
+        [16] = {
+            2944, -- Devouring Plague(Rank 1)
+            19276, -- Devouring Plague(Rank 2)
+            19277, -- Devouring Plague(Rank 3)
+            19278, -- Devouring Plague(Rank 4)
+            19279, -- Devouring Plague(Rank 5)
+            19280, -- Devouring Plague(Rank 6)
+        },
+        [128] = {
+            402789, -- Eye of the Void
+        },
         [1024] = {
             431681, -- Void Zone
             431690, -- Void Zone
+        },
+        [2097152] = {
+            401863, -- Prayer of Mending
+        },
+        [33554432] = {
+            15290, -- Vampiric Embrace
         },
         [268435456] = {
             425204, -- Void Plague

@@ -19,7 +19,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_HIT_CHANCE,
-                affectSpell = {-2142714854, 264449, 0, 0},
+                affectSpell = {-2142714854, 329985, 2, 0},
                 perPoint = 2,
             },
         }
@@ -55,12 +55,12 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_DAMAGE_HEALING,
-                affectSpell = {147, 329728, 131072, 0},
+                affectSpell = {147, 329728, 131074, 0},
                 perPoint = 2,
             },
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_OVER_TIME,
-                affectSpell = {2, 256, 0, 0},
+                affectSpell = {2, 65792, 0, 0},
                 perPoint = 2,
             },
             {
@@ -83,7 +83,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_FLAT_CRIT_CHANCE,
-                affectSpell = {997, 196672, 131072, 0},
+                affectSpell = {997, 196672, 8519682, 0},
                 perPoint = 1,
             },
         }
@@ -107,7 +107,7 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_DAMAGE_HEALING,
-                affectSpell = {4, 0, 0, 0},
+                affectSpell = {4, 65536, 0, 0},
                 perPoint = 5,
             },
         }
@@ -131,12 +131,12 @@ _addon.talentDataRaw = {
         effects = {
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_DAMAGE_HEALING,
-                affectSpell = {868, 131136, 2, 0},
+                affectSpell = {868, 196672, 2, 0},
                 perPoint = 2,
             },
             {
                 type = _addon.CONST.EFFECT_TYPE.SPELLMOD_PCT_OVER_TIME,
-                affectSpell = {100, 0, 2, 0},
+                affectSpell = {100, 65536, 2, 0},
                 perPoint = 2,
             },
         }
